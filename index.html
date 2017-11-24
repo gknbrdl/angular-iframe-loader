@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body ng-app="app">
+  <div ng-controller="MainController as vm">
+  	<div ng-init="vm.init()">
+  		    <iframe ng-src="{{vm.iframeLink}}" iframe-onload></iframe>
+  	</div>
+  </div>
+</body>
+</html>
