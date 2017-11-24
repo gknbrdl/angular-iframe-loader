@@ -5,6 +5,6 @@ function MainController($sce){
   vm.init = init;
 
   function init(){
-  	  vm.iframeLink = $sce.trustAsResourceUrl('http://contents.good-game-network.com/leaflet/ggpokersite?lang=tr&btag1=betorder');
+  	  vm.iframeLink = $sce.trustAsResourceUrl('https://gaming.youtube.com/');
   }
 }
