@@ -1,0 +1,12 @@
+iframe{
+  position:relative;
+}
+
+.iframe-loading{
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background: rgba(83,151,10,.3) url('http://svgur.com/i/437.svg') no-repeat center center;
+}
