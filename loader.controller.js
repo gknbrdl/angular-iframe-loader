@@ -5,6 +5,6 @@ function MainController($sce){
   vm.init = init;
 
   function init(){
-  	  vm.iframeLink = $sce.trustAsResourceUrl('https://gaming.youtube.com/');
+  	  vm.iframeLink = $sce.trustAsResourceUrl('http://salihgokanbirdal.com.tr');
   }
 }
